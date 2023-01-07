@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background: url("../images/pattern-background-desktop.svg") no-repeat ;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    background-size: 100% 50%;
+  }
+
+.card {
+    width: 25rem;
+    text-align: center;
+    border-radius: 20px;
+    margin: 8rem auto;
+    overflow: hidden;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 5%;
+}
+
+.card-text {
+    font-size: 16px;
+    padding: 0 4% 4%;
+}
+
+.plan {
+    padding: 4% 3% 2%;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    margin: 5%;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+}
+
+.btn-primary:hover {
+    background-color: hsl(245, 75%, 52%);
+}
+
+.btn-tertiary:hover {
+    background-color: hsl(225, 100%, 94%);
+}
+
+.btn {
+    font-size: 14px;
+}
+
+.col-4 {
+    position: relative;
+    top: 15px;
+    left: 10px;
+    font-size: 14px;
+}
+
+a:hover {
+    color: hsl(245, 75%, 52%);
+    text-decoration:none;
+}
+
+.d-grid {
+    padding: 3% 1%;
+}
+
+.attribution {
+    text-align: center;
+    font-size: 11px;
+    color: hsl(224, 23%, 55%);
+}
